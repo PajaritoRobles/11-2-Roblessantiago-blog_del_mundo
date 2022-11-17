@@ -4,7 +4,7 @@ body{
 }
 
 article{
-    color: rgb(50, 138, 150);
+    color: rgb(0, 24, 245);
 }
 
 nav>ul>li{
@@ -14,4 +14,5 @@ nav>ul>li{
 #titulo-del-blog{
     text-align: center;
     font-size: 3rem;
+    color: rgb(208, 255, 0);
 }
