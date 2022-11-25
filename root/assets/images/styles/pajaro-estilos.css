@@ -1,10 +1,11 @@
 body{
-    background-color: #cf0000;
-    color: #ffffff;
+    background-color: #0a0101;
+    color: #f3eaea;
 }
 
 article{
-    color: rgb(202, 209, 199);
+    background-color: #f5eded;
+    color: rgb(8, 8, 8);
 }
 
 nav>ul>li{
@@ -15,4 +16,9 @@ nav>ul>li{
     text-align: center;
     font-size: 3rem;
     color: #ffffff;
+}
+
+.coche{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
 }
