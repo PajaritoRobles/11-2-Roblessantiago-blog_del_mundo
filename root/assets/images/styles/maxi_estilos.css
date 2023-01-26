@@ -6,10 +6,13 @@ body{
 article{
     color: rgb(2, 2, 2);
     background-color: #1a0bf3;
+    border-bottom: 1px solid white;
+    padding: 1.5rem;
 }
 
 nav>ul>li{
-    color: yellow;
+    color: rgb(245, 245, 239);
+    list-style: none;
 }
 
 #titulo-del-blog{
@@ -18,3 +21,51 @@ nav>ul>li{
     color: rgb(208, 255, 0);
 }
 
+.ilustracion{
+    border: 4px solid white;
+}
+
+#footer_blog{
+    border: 2px yellow;
+}
+
+.ilustracion figcaption{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+.resaltado{
+    text-decoration: none;
+    color: yellow;
+}
+ul{
+    list-style: none;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+}
+
+section>header{
+    grid-column: span 12;
+}
+
+section>aside{
+    grid-column: span 4;
+}
+
+section>main{
+    grid-column: span 8;
+}
+section>footer{
+    grid-column: span 12;
+}
+
+section>nav{
+    font-size: 1.3rem;
+    border-bottom: solid 5px white;
+}
