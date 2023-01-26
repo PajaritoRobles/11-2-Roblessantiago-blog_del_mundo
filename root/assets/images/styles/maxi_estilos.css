@@ -17,16 +17,21 @@ nav>ul>li>a{
 
 #titulo-del-blog{
     text-align: center;
-    font-size: 3rem;
-    color: rgb(208, 255, 0);
+    font-size: 1.5rem;
+    color: rgb(240, 241, 237);
 }
-
+#titulo-del-blog2{
+    font-size: 0.9rem;
+}
 .ilustracion{
     border: 4px solid white;
 }
 
 #footer_blog{
     border: 2px yellow;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .ilustracion figcaption{
@@ -77,13 +82,50 @@ nav>ul{
     padding-bottom: 0.5rem;
 }
 
-.hgroup{
-    justify-content: space-between;
-    text-align: center;
-}
-hgroup{
-    justify-content: space-between;
-    text-align: center;
-}
 
 
+
+article>header>hgroup>h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article>header>hgroup>h2>img{
+    margin-right: 1.5rem;
+}
+article>header>hgroup{
+    display: flex;
+    justify-content: space-between;
+}
+
+aside>h2{
+   text-align: center ;
+   font-size: 0.9rem;
+    
+}
+
+aside>div{
+    background-color: #363333;
+    color: rgb(192, 192, 192);
+    border-bottom: 2px solid #ffffff;
+    border-top: 3px solid #ffffff;
+}
+
+aside>div:nth-child(even){
+    background-color: rgb(6, 0, 0);
+    color: rgb(165, 163, 163);
+    border-bottom: 2px solid #ffffff;
+    border-top: 3px solid #ffffff;
+
+}
+
+aside>div>img{
+    background-color: rgb(247, 243, 243);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.aside1{
+    background-color: #070707;
+    color: white;
+}
