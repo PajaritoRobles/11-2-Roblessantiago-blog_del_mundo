@@ -10,8 +10,8 @@ article{
     padding: 1.5rem;
 }
 
-nav>ul>li{
-    color: rgb(245, 245, 239);
+nav>ul>li>a{
+    color: #ffffff;
     list-style: none;
 }
 
@@ -65,7 +65,25 @@ section>footer{
     grid-column: span 12;
 }
 
-section>nav{
+nav{
     font-size: 1.3rem;
     border-bottom: solid 5px white;
 }
+
+nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 0.5rem;
+}
+
+.hgroup{
+    justify-content: space-between;
+    text-align: center;
+}
+hgroup{
+    justify-content: space-between;
+    text-align: center;
+}
+
+
