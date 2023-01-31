@@ -75,13 +75,22 @@ nav{
     border-bottom: solid 5px white;
 }
 
-nav>ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 0.5rem;
-}
+ @media (min-width:1100px) {
 
+    nav>ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 0.5rem;
+        
+            
+        
+    }
+    
+    nav{
+        border-bottom: 5px solid red;
+    }
+ } 
 
 
 
@@ -110,6 +119,7 @@ aside>div{
     border-bottom: 2px solid #ffffff;
     border-top: 3px solid #ffffff;
     display: flex;
+    
 }
 
 aside>div:nth-child(even){
@@ -117,6 +127,7 @@ aside>div:nth-child(even){
     color: rgb(165, 163, 163);
     border-bottom: 2px solid #ffffff;
     border-top: 3px solid #ffffff;
+    display: flex;
 
 }
 
