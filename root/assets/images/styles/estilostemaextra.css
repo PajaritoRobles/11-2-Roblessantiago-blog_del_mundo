@@ -1,0 +1,34 @@
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    border: 20px solid rgb(87, 219, 255);
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+article{
+    background-color: black;
+    color: aliceblue;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.ilustracion{
+    border: 12px solid aqua;
+}
